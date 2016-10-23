@@ -53,7 +53,7 @@ if (isset($_POST['submitmessage'])) {
             <div class="row">
                 <div class="col-lg-3 col-xs-6">
                     <!-- small box -->
-                    <div class="small-box bg-aqua">
+                    <div class="small-box bg-blue">
                         <div class="inner">
                             <h3><?php echo get_RowNumber("student"); ?></h3>
 
@@ -68,7 +68,7 @@ if (isset($_POST['submitmessage'])) {
                 <!-- ./col -->
                 <div class="col-lg-3 col-xs-6">
                     <!-- small box -->
-                    <div class="small-box bg-green">
+                    <div class="small-box bg-yellow">
                         <div class="inner">
                             <h3><?php echo get_RowNumber("teacher"); ?></h3>
 
@@ -83,7 +83,7 @@ if (isset($_POST['submitmessage'])) {
                 <!-- ./col -->
                 <div class="col-lg-3 col-xs-6">
                     <!-- small box -->
-                    <div class="small-box bg-yellow">
+                    <div class="small-box bg-red">
                         <div class="inner">
                             <h3><?php echo get_RowNumber("class"); ?></h3>
 
@@ -98,7 +98,7 @@ if (isset($_POST['submitmessage'])) {
                 <!-- ./col -->
                 <div class="col-lg-3 col-xs-6">
                     <!-- small box -->
-                    <div class="small-box bg-red">
+                    <div class="small-box bg-olive">
                         <div class="inner">
                             <h3><?php echo get_RowNumber("subject"); ?></h3>
 

@@ -131,15 +131,12 @@
                 </li> 
                 <li class="treeview">
                     <a href="#">
-                        <i class="fa fa-beer"></i> <span> Facilites </span>
+                        <i class="fa fa-beer"></i> <span> Facilities </span>
                         <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">  
                         <li> <a href="transports.php"> <i class="fa fa-car"></i> <span>Transport </span> </a>  </li> 
-                        <li> <a href="library.php"> <i class="fa fa-book"></i> <span>Library </span> </a>  </li> 
-                        <li> <a href="library.php"> <i class="fa fa-bug"></i> <span>Lab </span> </a>  </li> 
-                        <li> <a href="library.php"> <i class="fa fa-calendar-check-o"></i> <span>Debet Club </span> </a>  </li> 
-
+   
                     </ul>
                 </li> 
 
@@ -168,11 +165,7 @@
                         <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">   
-                        <li>
-                            <a href="calendar.php">
-                                <i class="fa fa-calendar-check-o"></i> <span>Calendar </span> 
-                            </a>
-                        </li>
+                  
                         <li>
                             <a href="notices.php">
                                 <i class="fa fa-tasks"></i> <span>Notice </span> 
@@ -196,8 +189,7 @@
                     <ul class="treeview-menu">
                         <li class=""><a href="message.php">Inbox <span class="label label-primary pull-right">13</span></a>
                         </li>
-                        <li><a href="compose.php">Compose</a></li>
-                        <li><a href="readMessage.php">Read</a></li>
+                      
                     </ul>
                 </li>
         

@@ -77,7 +77,7 @@ if (isset($_POST['submit'])) {
             </div>
             <!-- /.login-logo -->
             <div class="login-box-body">
-                <p class="login-box-msg">Sign in to start your session</p>
+                <p class="login-box-msg text-danger">Login in Admin Panel</p>
 
                 <?php
                 if (isset($errmsg)) {
@@ -104,20 +104,12 @@ if (isset($_POST['submit'])) {
                     <div class="row">
 
                         <div class=" col-md-offset-8 col-xs-4"> 
-                            <input type="submit" class="btn btn-primary ng-binding" value="Sign In" name="submit" >
+                            <input type="submit" class="btn btn-success col-md-12 ng-binding" value="Sign In" name="submit" >
                         </div>
                         <!-- /.col -->
                     </div>
                 </form>
-
-                <div class="social-auth-links text-center">
-                    <p>- OR -</p>
-                    <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Sign in using
-                        Facebook</a>
-                    <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Sign in using
-                        Google+</a>
-                </div>
-                <!-- /.social-auth-links -->
+ 
 
                 <a href="passwordReset.php">I forgot my password</a><br>
                 <a href="register.html" class="text-center">Register a new rowship</a>
