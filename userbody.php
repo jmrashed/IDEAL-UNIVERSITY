@@ -171,9 +171,9 @@ if (isset($_GET['tab']) && ($_GET['tab'] == "contact")) {
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58433.071328642!2d90.38154113395427!3d23.744991566762774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfde0a96bf5fecf99!2sStamford+University+Bangladesh!5e0!3m2!1sen!2sbd!4v1471437289593" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 <pre>
                                                                                     Dhaka-1200, Bangladesh
-                                                                                    mail: xyuniversity@gmail.com
+                                                                                    mail: ideal@gmail.com
                                                                                     phone: +88017654657
-                                                                                    web: www.xyuniversity.com
+                                                                                    web: www.ideal.com
                 </pre>
             </div>
             <!-- /.box-body -->
