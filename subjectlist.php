@@ -85,7 +85,7 @@ include("leftsidebar.php");
                 }
                 ?>
                 <div class="row">
-                    <h4 align="center" style="font-size: 20pt"><?php echo get_SystemName(); ?></h4> 
+                    <h4 align="center" style="font-size: 20pt">IDEAL UNIVERSITY</h4> 
                 </div>
                 <table class="table table-responsive">
                     <tr>

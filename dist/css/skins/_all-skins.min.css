@@ -9,3 +9,9 @@
 body{
     color:green;
 }
+.skin-blue .main-header .logo:hover {
+    background-color: #678c2f;
+}
+.skin-blue .main-header li.user-header {
+    background-color: #5f8427;
+}

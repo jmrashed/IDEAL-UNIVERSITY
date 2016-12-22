@@ -102,7 +102,7 @@ if (isset($_POST['submit'])) {
                 <div class="container">
                     <div class="navbar-header">
                         <a href="home.php?tab=home" class="navbar-brand">
-                            <strong>Ideal</strong> Engineering University
+                            <strong font-awesome>Ideal</strong> Engineering University
 
                         </a>
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">

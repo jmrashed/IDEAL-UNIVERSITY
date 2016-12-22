@@ -10,7 +10,7 @@ if (isset($_GET['tab']) && ($_GET['tab'] == "home")) {
                     Mastermind offers expertise in supporting students by focusing and promoting educational techniques.  
                     We are committed to our mission in guiding students to achieve personal and educational success 
                     by reaching their true potential as individuals.  We strive for academic excellence by instilling 
-                    students with character building qualities.<br>
+                    students with character building qualities.<br><br>
                     We provide tools which shape the mind of our students with a classic educational pursuit of 
                     teaching students to think critically, read deeply, and write clearly. 
                     Yet we also are entrepreneurial in our desire to master and use new teaching technologies.  
