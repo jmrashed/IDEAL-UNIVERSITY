@@ -26,14 +26,17 @@ include '../connection.php';
     </head>
 
     <body> 
-    <div class="container"> 
-        <div class="row">
-            <img src="images/onlineexam.jpg" class="img img-responsive" width="100%">
-        </div>
-        <ul class="nav nav-pills nav-tabs">
-            <li> <a href="index.php">Home</a> </li>
-            <li> <a href="sublist.php"> Subject List</a> </li>
-            <li> <a href="result.php">Result</a> </li>
-            <li> <a href="../adminhome.php" class="text-uppercase"><?=$LOGIN_TYPE;?> Panel : Welcome to <?=$LOGIN_NAME;?></a> </li>
-            <li> <a href="../logOut.php">Log Out</a> </li>
-        </ul>
+        <div class="container"> 
+            <div class="row">
+                <img src="images/onlineexam.jpg" class="img img-responsive" width="100%">
+            </div>
+            <ul class="nav nav-pills nav-tabs">
+                <li> <a href="index.php">Home</a> </li>
+                <li> <a href="sublist.php"> Subject List</a> </li>
+                <li> <a href="result.php">Result</a> </li>
+                <li> <a href="../adminhome.php" class="text-uppercase"><?= $LOGIN_TYPE; ?> Panel : Welcome to <?= $LOGIN_NAME; ?></a> </li>
+                <li> <a href="../logOut.php">Log Out</a> </li>
+            </ul>
+
+
+ 

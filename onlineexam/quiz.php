@@ -2,8 +2,8 @@
 session_start();
 error_reporting(1);
  
-  $cn = mysql_connect('localhost','coderspy_xy','bkUv1&Thrp4e');
-  mysql_select_db('coderspy_xy',$cn );
+  $cn = mysql_connect('localhost','root','');
+  mysql_select_db('xyuniversity',$cn );
   
   
 include("database.php");
@@ -30,8 +30,36 @@ if (!isset($_SESSION[sid]) || !isset($_SESSION[tid])) {
  
         <?php
         include("header.php");
+?>
+            <h1 id="demo" class="text-center" ></h1>
+            <h2 class="text-center">You will get 10 minutes</h2>
+ 
 
+            <script>
+                var myVar = setInterval(myTimer, 1000);
+                function myTimer() {
+                    var d = new Date();
+                  //   alert(d);
+                   
+                    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+                }
+            </script>
+            
+<?php 
+ 
+$localtime = localtime();
+$localtime_assoc = localtime(time(), true);
 
+$initial_tm= $localtime[1]; 
+ 
+if(isset($initial_tm)){
+    $i=$initial_tm;
+}
+if($initial_tm== $i+10 ){
+    
+}
+ 
+            
         $query = "select * from mst_question";
 
         $rs = mysql_query("select * from mst_question where test_id=$tid", $cn) or die(mysql_error());
